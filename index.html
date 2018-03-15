@@ -2,9 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <!--fonts  -->
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300,400,500,600,700" rel="stylesheet">
   </head>
   <body>
-    <header><!-- header -->
+    <header id="header-main" class="highlight"><!-- header -->
       <nav>
         <span>Patrick Simonian</span>
         <a href="#about">ABOUT</a>
@@ -14,7 +17,7 @@
       </nav>
       <div>
         <!-- main heding name and blurb + download btn -->
-        <div>
+        <div class="main-title-wrap">
           <h1>Patrick Simonian</h1>
           <h3>Developer, Instructor, Mentor and Jack of all Trades</h3>
           <button><a href="./patricks_resume.pdf" download>Download CV</a></button>
@@ -27,8 +30,8 @@
     </header><!-- end of header -->
 
     <section id="about"><!-- about section -->
-      <h2>About</h2>
-      <h3>A tinkerer at heart who loves to be out in the wild.</h3>
+      <h2 class="section-title">About</h2>
+      <h3 class="section-subtitle">A tinkerer at heart who loves to be out in the wild.</h3>
       <!--  -->
       <div>
         <h5>Me</h5>
@@ -61,8 +64,8 @@
       </div>
     </section><!-- end of about me -->
 
-    <section id="skills"><!-- skills-->
-      <h2>Skills</h2>
+    <section id="skills" class="highlight"><!-- skills-->
+      <h2 class="section-title">Skills</h2>
       <ul>
         <li>
           <div>CSS<div>
@@ -113,7 +116,7 @@
 
     <section id="experience"><!-- experience -->
       <header>
-        <h2>Experience</h2>
+        <h2 class="section-title">Experience</h2>
       </header>
 
       <div class="experience-item">
@@ -172,12 +175,12 @@
       </div>
     </section><!-- end of experience section -->
     <footer id="contact"><!-- footer -->
-      <div class="footer-subsection">
+      <div class="footer-subsection main-title-wrap">
         <h1>Patrick Simonian</h1>
         <h3>Developer, Instructor, Mentor and Jack of all Trades</h3>
         <button><a href="./patricks_resume.pdf" download>Download CV</a></button>
       </div>
-      <div class="footer-subsection">
+      <div class="footer-subsection" id="contact-links">
           <a href="mailto:patricksimonian@gmail.com" rel="nofollow">patricksimonian@gmail.com</a>
           <a href="tel:+12507568877" rel="nofollow">+1 250 756 8877</a>
           <a href="https://www.linkedin.com/in/patrick-simonian-a2b818132/" target="_blank" rel="nofollow">LinkedIn</a>

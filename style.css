@@ -1,0 +1,51 @@
+/* coolors
+#FAFAFA
+#E3F2FD
+#DB5461
+#686963
+#8AA29E
+ */
+body {
+  font-family: 'IBM Plex Sans', helvetica;
+  margin: 0;
+}
+/*for header and skills*/
+.highlight {
+  background-color: #DB5461;
+  color: #FAFAFA;
+}
+/* base styles */
+.section-title {
+  font-weight: 600;
+  font-size: 33px;
+}
+
+.section-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* specific styles */
+#header-main a {
+  text-transform: uppercase;
+}
+
+.main-title-wrap h1 {
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.main-title-wrap h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* contact section */
+#contact {
+  color: #E3F2FD;
+  background-color: #686963;
+}
+#contact-links a {
+  font-size: 14px;
+  font-weight: 300;
+}
