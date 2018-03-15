@@ -1,0 +1,33 @@
+about me:
+
+    Much of what defines me is my passion for the outdoors; playing in Nature's
+    playground. As well as playing music, videogames, woodworking, as well as
+    spending time with my family
+    and my girlfriend. I started my working career exploring several different
+    paths from Aircraft Maintainence to Truck Driving. I'm happy I did all of that
+    before finding my self where I am today. Because of it, I have a very broad
+    skillset and
+    the ability to view problems from different angles based on those past
+    occupations. Ever since being introduced to the amazing world of coding
+    I haven't looked back. It's challenging, fun, ever-changing and the community
+    here in Victoria (at least) is amazing.
+
+skills
+ -leadership
+ -full stack web development
+ -responsive design
+ -modern dev tools such as JIRA, moqups, gulp, git, draw.io
+ -documentation authoring
+ -spec authoring
+
+ Shaw Cable  Technical Support Oct 2012 to Sept 2013
+ CliffHanger Climbing Gym Instructor Jan 2014 to Aug 2014
+ Central Mountain Air AME  Dec 2014 to May 2015
+ Do it Right Properties  Labourer, Painter, Landscaper, Carpenter May 2015 to May 2016
+ SeaHaul Tech. Boat Engineer May 2016 to June 2016
+ Wallace and Carey, Night Truck Driver July 2016 to Sep 2016
+ BluePanda Solutions Full stack Dev Dec 2016 to Current
+ Lighthouse Labs Feb Instructor/Mentor 2017 to Current
+
+ linked in:https://www.linkedin.com/in/patrick-simonian-a2b818132/
+ gmail: patricksimonian@gmail.com
