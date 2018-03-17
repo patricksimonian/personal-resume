@@ -26,6 +26,17 @@ body {
 }
 
 /* specific styles */
+#header-main,
+#about,
+#skills,
+#experience,
+#contact {
+  padding-left: 80px;
+}
+/* HEADER stylings */
+#header-main {
+  padding-top: 40px;
+}
 #header-main a {
   text-transform: uppercase;
 }
@@ -39,7 +50,18 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+/* about section*/
+#about {
 
+}
+/* skills */
+#skills {
+
+}
+/* experience */
+#experience {
+
+}
 /* contact section */
 #contact {
   color: #E3F2FD;
