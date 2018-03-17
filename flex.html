@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Layout 3</title>
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        color: #fff;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+      }
+      main {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+      }
+      .container {
+        flex-basis: 80%;
+        display: flex;
+        flex-direction: column;
+      }
+      .container div {
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+      }
+      section {
+        flex-grow: 1;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      aside {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container div:nth-child(1) section:nth-child(1),
+      .container div:nth-child(2) section:nth-child(3) {
+        background-color: teal;
+      }
+      .container div:nth-child(1) section:nth-child(2),
+      aside {
+        background-color: coral;
+
+      }
+      .container div:nth-child(1) section:nth-child(3),
+      .container div:nth-child(2) section:nth-child(1) {
+        background-color: red;
+      }
+      .container div:nth-child(2) section:nth-child(2),
+      header {
+        background-color: navy;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>A</h2>
+    </header>
+    <main>
+      <div class="container">
+        <div>
+          <section><h2>B</h2></section>
+          <section><h2>C</h2></section>
+          <section><h2>D</h2></section>
+        </div>
+        <div>
+          <section><h2>E</h2></section>
+          <section><h2>F</h2></section>
+          <section><h2>G</h2></section>
+        </div>
+      </div>
+      <aside>
+        <h2>H</h2>
+      </aside>
+    </main>
+  </body>
+</html>
