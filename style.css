@@ -8,6 +8,7 @@
 body {
   font-family: 'IBM Plex Sans', helvetica;
   margin: 0;
+  box-sizing: border-box;
 }
 /*for header and skills*/
 .highlight {
@@ -32,6 +33,7 @@ body {
 #experience,
 #contact {
   padding-left: 80px;
+  padding-right: 80px;
 }
 /* HEADER stylings */
 #header-main {
@@ -39,6 +41,30 @@ body {
 }
 #header-main a {
   text-transform: uppercase;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+#nav-fullname {
+  flex-basis: 50%;
+  flex-shrink: 1;
+}
+.nav-links {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.title-profile-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0 40px 0;
+  z-index: 2;
+  position: relative;
 }
 
 .main-title-wrap h1 {
@@ -50,18 +76,84 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+
+#profile-img {
+  max-width: 400px;
+}
 /* about section*/
 #about {
 
 }
 /* skills */
 #skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+#skills-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#skills-list li {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+#skills-list li > div {
+  text-align: right;
+  flex-basis: 15%;
+  margin-right: 10px;
+}
+ meter {
+  flex-grow: 1;
+  max-width: 65%;
+  margin-right: 10px;
 }
 /* experience */
 #experience {
 
 }
+.experience-item {
+  margin-bottom: 40px;
+}
+.experience-item > div {
+  display: flex;
+  align-items: baseline;
+}
+.exp-description {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.exp-job-title {
+  font-size: 14px;
+}
+.exp-date {
+  color: #8AA29E;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.exp-company {
+  font-weight: 400;
+}
+.upper-section {
+  padding-bottom: 15px;
+}
+
+.exp-left {
+  flex-grow: 1;
+  flex-basis: 25%;
+  text-align: right;
+  margin: 0;
+}
+
+.exp-right {
+  flex-grow: 1;
+  flex-basis: 75%;
+  margin: 0 0 0 10px;
+}
+
 /* contact section */
 #contact {
   color: #E3F2FD;

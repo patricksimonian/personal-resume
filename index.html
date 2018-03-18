@@ -3,19 +3,32 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./clouds.min.css">
     <!--fonts  -->
-<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
   </head>
   <body>
+
     <header id="header-main" class="highlight"><!-- header -->
+      <div id="clouds">
+        <i id="c1" class="fas fa-cloud"></i>
+        <i id="c2" class="fas fa-cloud"></i>
+        <i id="c3" class="fas fa-cloud"></i>
+        <i id="c4" class="fas fa-cloud"></i>
+        <i id="c5" class="fas fa-cloud"></i>
+      </div>
       <nav>
-        <span>Patrick Simonian</span>
-        <a href="#about">ABOUT</a>
-        <a href="#skills">SKILLS</a>
-        <a href="#experience">EXPERIENCE</a>
-        <a href="#contact">CONTACT</a>
+        <span id="nav-fullname">Patrick Simonian</span>
+        <div class="nav-links">
+          <a href="#about">ABOUT</a>
+          <a href="#skills">SKILLS</a>
+          <a href="#experience">EXPERIENCE</a>
+          <a href="#contact">CONTACT</a>
+        </div>
       </nav>
-      <div>
+      <div class="title-profile-wrap">
         <!-- main heding name and blurb + download btn -->
         <div class="main-title-wrap">
           <h1>Patrick Simonian</h1>
@@ -23,8 +36,8 @@
           <button><a href="./patricks_resume.pdf" download>Download CV</a></button>
         </div>
         <!-- img container -->
-        <div>
-            <img src="https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2016/09/30/15/samuel-l-jackson-1.jpg" alt="the real me">
+        <div class="profile-img-wrap">
+            <img id="profile-img" src="https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2016/09/30/15/samuel-l-jackson-1.jpg" alt="the real me">
         </div>
       </div>
     </header><!-- end of header -->
@@ -68,49 +81,49 @@
 
     <section id="skills" class="highlight"><!-- skills-->
       <h2 class="section-title">Skills</h2>
-      <ul>
+      <ul id="skills-list">
         <li>
-          <div>CSS<div>
+          <div>CSS</div>
           <meter min="0" max="10" value="6"></meter>65%
         </li>
         <li>
-          <div>HTML<div>
+          <div>HTML</div>
           <meter min="0" max="20" value="17"></meter>85%
         </li>
         <li>
-          <div>Javascript<div>
+          <div>Javascript</div>
           <meter min="0" max="10" value="9"></meter>90%
         </li>
         <li>
-          <div>Google Docs/Sheets<div>
+          <div>Google Docs/Sheets</div>
           <meter min="0" max="10" value="6"></meter>65%
         </li>
         <li>
-          <div>Git/Github<div>
+          <div>Git/Github</div>
           <meter min="0" max="10" value="7"></meter>70%
         </li>
         <li>
-          <div>Mockups<div>
+          <div>Mockups</div>
           <meter min="0" max="10" value="9"></meter>90%
         </li>
         <li>
-          <div>Managment & Workflows<div>
+          <div>Managment & Workflows</div>
           <meter min="0" max="10" value="8"></meter>80%
         </li>
         <li>
-          <div>Prototyping & Research<div>
+          <div>Prototyping & Research</div>
           <meter min="0" max="20" value="15"></meter>75%
         </li>
         <li>
-          <div>Hardware Development<div>
+          <div>Hardware Development</div>
           <meter min="0" max="10" value="4"></meter>40%
         </li>
         <li>
-          <div>Organization<div>
+          <div>Organization</div>
           <meter min="0" max="10" value="9"></meter>90%
         </li>
         <li>
-          <div>Video/Audio/Image Editing<div>
+          <div>Video/Audio/Image Editing</div>
           <meter min="0" max="20" value="11"></meter>55%
         </li>
       </ul>
@@ -123,12 +136,12 @@
 
       <div class="experience-item">
         <div class="upper-section">
-          <span>Dec 2016-Present</span>
-          <h4>Full Stack Web Developer</h4>
+          <span class="exp-left exp-date">Dec 2016-Present</span>
+          <h4 class="exp-right exp-job-title">Full Stack Web Developer</h4>
         </div>
         <div class="lower-section">
-          <h3>Blue Panda Solutions</h3>
-          <p>I'm the lead developer for Blue Panda's main ip
+          <h3 class="exp-left exp-company">Blue Panda Solutions</h3>
+          <p class="exp-right exp-description">I'm the lead developer for Blue Panda's main ip
             <a href="https://www.repairshop.io">RepairShop</a>.
             This web application is a custom tailored solution for
            the Auto Repair Industries' needs for estimating, invoicing and expense
@@ -138,12 +151,12 @@
 
       <div class="experience-item">
         <div class="upper-section">
-          <span>Feb 2016 to Present</span>
-          <h4>Mentor/Instructor</h4>
+          <span class="exp-left exp-date">Feb 2016 to Present</span>
+          <h4 class="exp-right exp-job-title">Mentor/Instructor</h4>
         </div>
         <div class="lower-section">
-          <h3>Lighthouse Labs</h3>
-          <p>I'm very happy to be contributing back to Lighthouse Labs as a Mentor
+          <h3 class="exp-left exp-company">Lighthouse Labs</h3>
+          <p class="exp-right exp-description">I'm very happy to be contributing back to Lighthouse Labs as a Mentor
           for the Lighthouse Labs Web Development Bootcamp as well as an Instructor
           for the former Intro To Web Development Course (based in Ruby/Sinatra)
           and the Front End Fundamentals Course (based in CSS/HTML/JS/JQuery)</p>
@@ -152,12 +165,12 @@
 
       <div class="experience-item">
         <div class="upper-section">
-          <span>June 2016 to Sept 2016</span>
-          <h4>Commerical Truck Driver</h4>
+          <span class="exp-left exp-date">June 2016 to Sept 2016</span>
+          <h4 class="exp-right exp-job-title">Commerical Truck Driver</h4>
         </div>
         <div class="lower-section">
-          <h3>Wallace & Carrey</h3>
-          <p>I served as a graveyard truck driver. I drove a class 3 truck which
+          <h3 class="exp-left exp-company">Wallace & Carrey</h3>
+          <p class="exp-right exp-description">I served as a graveyard truck driver. I drove a class 3 truck which
           was generally loaded with fresh produce/goods slated for delivery anywhere
           between Nanaimo BC to Cambell River BC. This contractual position was a great
         experience although I have to admit the night shift work did not agree with me!</p>
@@ -166,12 +179,12 @@
 
       <div class="experience-item">
         <div class="upper-section">
-          <span>Dec 2015 to May 2016 </span>
-          <h4>Apprentice Aircraft Maintenance Engineer</h4>
+          <span class="exp-left exp-date">Dec 2015 to May 2016 </span>
+          <h4 class="exp-right exp-job-title">Apprentice Aircraft Maintenance Engineer</h4>
         </div>
         <div class="lower-section">
-          <h3>Central Mountain Air Ltd.</h3>
-          <p>Responsible for the maintenance and servicing of a fleet of Beechcraft
+          <h3 class="exp-left exp-company">Central Mountain Air Ltd.</h3>
+          <p class="exp-right exp-description">Responsible for the maintenance and servicing of a fleet of Beechcraft
             1900D twin turboprop aircraft.</p>
         </div>
       </div>
@@ -188,5 +201,10 @@
           <a href="https://www.linkedin.com/in/patrick-simonian-a2b818132/" target="_blank" rel="nofollow">LinkedIn</a>
       </div>
     </footer><!-- end of footer -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./clouds.min.js"></script>
   </body>
 </html>
