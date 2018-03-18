@@ -12,13 +12,6 @@
   <body>
 
     <header id="header-main" class="highlight"><!-- header -->
-      <div id="clouds">
-        <i id="c1" class="fas fa-cloud"></i>
-        <i id="c2" class="fas fa-cloud"></i>
-        <i id="c3" class="fas fa-cloud"></i>
-        <i id="c4" class="fas fa-cloud"></i>
-        <i id="c5" class="fas fa-cloud"></i>
-      </div>
       <nav>
         <span id="nav-fullname">Patrick Simonian</span>
         <div class="nav-links">
@@ -33,7 +26,7 @@
         <div class="main-title-wrap">
           <h1>Patrick Simonian</h1>
           <h3>Developer, Instructor, Mentor and Jack of all Trades</h3>
-          <button><a href="./patricks_resume.pdf" download>Download CV</a></button>
+          <button class="ghost button"><a href="./patricks_resume.pdf" download>Download CV</a></button>
         </div>
         <!-- img container -->
         <div class="profile-img-wrap">
@@ -46,13 +39,13 @@
       <h2 class="section-title">About</h2>
       <h3 class="section-subtitle">A tinkerer at heart who loves to be out in the wild.</h3>
       <!--  -->
-      <div>
+      <article>
         <h5>Me</h5>
         <p>Much of what defines me is my passion for the outdoors;
           playing music; videogames; cooking; tinkering with circuitry; woodworking;
           as well as spending as much time as I can with my family and my girlfriend 😊</p>
-      </div>
-      <div>
+      </article>
+      <article>
         <h5>It wasn't a straight line getting here</h5>
         <p>I started my working career early exploring several different
         paths from Aircraft Maintainence to Truck Driving. I also pursued being
@@ -65,8 +58,8 @@
         Ever since being introduced to the amazing world of coding I haven't
         looked back. It's challenging, fun, ever-changing and the community
         here in Victoria (especially Lighthouse) is amazing.</p>
-      </div>
-      <div>
+      </article>
+      <article>
         <h5>Engaging With the Community</h5>
         <p>One of my favourite things about coding is that you can come from any
           background, from any age, with any disposition and be able to not only
@@ -76,7 +69,7 @@
           and as an Instructor for the Lighthouse Fundamentals/Introductory Courses.
           Engaging with people and sharing their passion is something I enjoy and
           plan on continuing for the remainder of my career.
-      </div>
+      </article>
     </section><!-- end of about me -->
 
     <section id="skills" class="highlight"><!-- skills-->
@@ -190,21 +183,23 @@
       </div>
     </section><!-- end of experience section -->
     <footer id="contact"><!-- footer -->
-      <div class="footer-subsection main-title-wrap">
-        <h1>Patrick Simonian</h1>
-        <h3>Developer, Instructor, Mentor and Jack of all Trades</h3>
-        <button><a href="./patricks_resume.pdf" download>Download CV</a></button>
-      </div>
-      <div class="footer-subsection" id="contact-links">
-          <a href="mailto:patricksimonian@gmail.com" rel="nofollow">patricksimonian@gmail.com</a>
-          <a href="tel:+12507568877" rel="nofollow">+1 250 756 8877</a>
-          <a href="https://www.linkedin.com/in/patrick-simonian-a2b818132/" target="_blank" rel="nofollow">LinkedIn</a>
+      <div class="contact-info-wrap">
+        <div class="footer-subsection main-title-wrap">
+          <h1>Patrick Simonian</h1>
+          <h3>Developer, Instructor, Mentor and Jack of all Trades</h3>
+          <button class="button"><a href="./patricks_resume.pdf" download>Download CV</a></button>
+        </div>
+        <div class="footer-subsection" id="contact-links">
+            <a href="mailto:patricksimonian@gmail.com" rel="nofollow">patricksimonian@gmail.com</a>
+            <a href="tel:+12507568877" rel="nofollow">+1 250 756 8877</a>
+            <a href="https://www.linkedin.com/in/patrick-simonian-a2b818132/" target="_blank" rel="nofollow">LinkedIn</a>
+        </div>
       </div>
     </footer><!-- end of footer -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./clouds.min.js"></script>
+    <!-- <script type="text/javascript" src="./clouds.min.js"></script> -->
   </body>
 </html>
