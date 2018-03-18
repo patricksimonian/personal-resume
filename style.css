@@ -47,6 +47,18 @@ button.button::before {
 button.button:hover::before {
   max-width: calc(100% - 30px);
 }
+
+/* meter style */
+meter {
+}
+meter::-webkit-meter-bar {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0);
+}
+meter::-webkit-meter-optimum-value {
+  background: #E3F2FD;
+  border-radius: 20px;
+}
 /*for header and skills*/
 .highlight {
   background-color: #DB5461;
@@ -168,7 +180,7 @@ nav {
 }
 #skills-list li > div {
   text-align: right;
-  flex-basis: 15%;
+  flex-basis: 20%;
   margin-right: 10px;
 }
  meter {
