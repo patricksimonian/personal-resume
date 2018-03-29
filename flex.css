@@ -134,13 +134,20 @@ input[type="radio"] {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: all .25s ease-in-out;
 }
-.tracer.vertical {
+.tracer.column {
   height: 9999px;
   border-right: 1px dashed #aaa;
 }
 
-.tracer.horizontal {
+.tracer.row {
   width: 9999px;
   border-bottom: 1px dashed #aaa;
+}
+
+.tracer.active {
+  border-width: 3px;
+  border-color: #aaa;
+  box-shadow: 0px 0px 8px 5px rgba(255, 234, 21, 0.24);
 }
